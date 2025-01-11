@@ -1,9 +1,12 @@
 #pragma once
 
-// ¹Ì¸® ÄÄÆÄÀÏ µÈ Çì´õ
+// ë¯¸ë¦¬ ì»´íŒŒì¼ ëœ í—¤ë”
 
 #include <Windows.h>
 #include <iostream>
+
+#include <vector>
+using std::vector;
 
 #include "define.h"
 #include "struct.h"

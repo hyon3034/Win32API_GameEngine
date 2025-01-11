@@ -20,8 +20,8 @@ BOOL                InitInstance(HINSTANCE, int);
 LRESULT CALLBACK    WndProc(HWND, UINT, WPARAM, LPARAM);
 INT_PTR CALLBACK    About(HWND, UINT, WPARAM, LPARAM);
 
-int APIENTRY wWinMain(_In_ HINSTANCE hInstance, /* ½ÇÇàµÈ ÇÁ·Î¼¼½ºÀÇ ½ÃÀÛ ÁÖ¼Ò */
-    _In_opt_ HINSTANCE hPrevInstance, /* ¸ÕÀú ½ÃÀÛµÈ ÀÌÀü ÇÁ·Î¼¼½ºÀÇ ½ÃÀÛ ÁÖ¼Ò */
+int APIENTRY wWinMain(_In_ HINSTANCE hInstance, /* ì‹¤í–‰ëœ í”„ë¡œì„¸ìŠ¤ì˜ ì‹œì‘ ì£¼ì†Œ */
+    _In_opt_ HINSTANCE hPrevInstance, /* ë¨¼ì € ì‹œì‘ëœ ì´ì „ í”„ë¡œì„¸ìŠ¤ì˜ ì‹œì‘ ì£¼ì†Œ */
     _In_ LPWSTR    lpCmdLine,
     _In_ int       nCmdShow)
 {
@@ -36,7 +36,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, /* ½ÇÇàµÈ ÇÁ·Î¼¼½ºÀÇ ½ÃÀÛ ÁÖ¼Ò *
 
     MyRegisterClass(hInstance);
 
-    // À©µµ¿ì»ı¼º
+    // ìœˆë„ìš°ìƒì„±
     if (!InitInstance(hInstance, nCmdShow))
     {
 
@@ -44,12 +44,12 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, /* ½ÇÇàµÈ ÇÁ·Î¼¼½ºÀÇ ½ÃÀÛ ÁÖ¼Ò *
     }
 
 
-    // Core ÃÊ±âÈ­
-    if (FAILED(CCore::GetInst()->init(g_hWnd, POINT{1280,768}))) // FAILED´Â À©µµ¿ì¿¡¼­ E_FAIL¸¦ ¹İÈ¯ÇÏ¸é true °ªÀÌ ³ª¿È
+    // Core ì´ˆê¸°í™”
+    if (FAILED(CCore::GetInst()->init(g_hWnd, POINT{1280,768}))) // FAILEDëŠ” ìœˆë„ìš°ì—ì„œ E_FAILë¥¼ ë°˜í™˜í•˜ë©´ true ê°’ì´ ë‚˜ì˜´
     {
-        MessageBox(nullptr, L"Core °´Ã¼ ÃÊ±âÈ­ ½ÇÆĞ", L"ERROR", MB_OK); // MB_OK ÀÎÀÚ´Â ok È®ÀÎ ¹öÆ°ÀÌ »ı±è
+        MessageBox(nullptr, L"Core ê°ì²´ ì´ˆê¸°í™” ì‹¤íŒ¨", L"ERROR", MB_OK); // MB_OK ì¸ìëŠ” ok í™•ì¸ ë²„íŠ¼ì´ ìƒê¹€
 
-        return FALSE; // Core(ÇÙ½ÉÀÌ µÇ´Â ¿ªÇÒ)À» ÃÊ±âÈ­¸¦ ¸øÇÏ¸é ¸ŞÀÎÇÔ¼ö Á¾·á
+        return FALSE; // Core(í•µì‹¬ì´ ë˜ëŠ” ì—­í• )ì„ ì´ˆê¸°í™”ë¥¼ ëª»í•˜ë©´ ë©”ì¸í•¨ìˆ˜ ì¢…ë£Œ
     }
 
 
@@ -58,7 +58,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, /* ½ÇÇàµÈ ÇÁ·Î¼¼½ºÀÇ ½ÃÀÛ ÁÖ¼Ò *
 
     MSG msg;
 
-    // PeekMessage ÇÔ¼ö ¹İÈ¯
+    // PeekMessage í•¨ìˆ˜ ë°˜í™˜
     // Main message loop:
 
     while (true)
@@ -76,9 +76,9 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, /* ½ÇÇàµÈ ÇÁ·Î¼¼½ºÀÇ ½ÃÀÛ ÁÖ¼Ò *
         }
         else
         {
-            // ¸Ş¼¼Áö°¡ ¹ß»ıÇÏÁö ¾Ê´Â ´ëºÎºĞÀÇ ½Ã°£
-            // Game Code ¼öÇà
-            // µğÀÚÀÎ ÆĞÅÏ ( ¼³°è À¯Çü )
+            // ë©”ì„¸ì§€ê°€ ë°œìƒí•˜ì§€ ì•ŠëŠ” ëŒ€ë¶€ë¶„ì˜ ì‹œê°„
+            // Game Code ìˆ˜í–‰
+            // ë””ìì¸ íŒ¨í„´ ( ì„¤ê³„ ìœ í˜• )
 
             CCore::GetInst()->progress();
         }
@@ -175,11 +175,11 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         }
     }
     break;
-    case WM_PAINT: // ¹«È¿È­ ¿µ¿ª¶§ ½ÇÇà
+    case WM_PAINT: // ë¬´íš¨í™” ì˜ì—­ë•Œ ì‹¤í–‰
     {
         PAINTSTRUCT ps;
 
-        // Device Context ¸¸µé¾î¼­ ID ¸¦ ¹İÈ¯
+        // Device Context ë§Œë“¤ì–´ì„œ ID ë¥¼ ë°˜í™˜
         HDC hdc = BeginPaint(hWnd, &ps);
 
         // Rectangle(hdc, 1180, 668, 1280, 768);

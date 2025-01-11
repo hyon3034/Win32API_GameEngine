@@ -20,29 +20,29 @@ CTimeMgr::~CTimeMgr()
 
 void CTimeMgr::init()
 {
-	// ÇöÀç Ä«¿îÆ®
+	// í˜„ìž¬ ì¹´ìš´íŠ¸
 	QueryPerformanceCounter(&m_llPrevCount);
 
-	// ÃÊ´ç Ä«¿îÆ® È½¼ö
+	// ì´ˆë‹¹ ì¹´ìš´íŠ¸ íšŸìˆ˜
 	QueryPerformanceFrequency(&m_llFrequency); 
 }
 
 void CTimeMgr::update()
 {
-	// ÀÌÀü ÇÁ·¹ÀÓÀÇ Ä«¿îÆÃ°ú, ÇöÀç ÇÁ·¹ÀÓ Ä«¿îÆÃ °ªÀÇ Â÷ÀÌ¸¦ ±¸ÇÑ´Ù
+	// ì´ì „ í”„ë ˆìž„ì˜ ì¹´ìš´íŒ…ê³¼, í˜„ìž¬ í”„ë ˆìž„ ì¹´ìš´íŒ… ê°’ì˜ ì°¨ì´ë¥¼ êµ¬í•œë‹¤
 	QueryPerformanceCounter(&m_llCurCount);
-
-	// Frequency = 1ÃÊ´ç ¼¿¼ö ÀÖ´Â Ä«¿îÆ® °ª
-	// DeltaTime = ÇÁ·¹ÀÓ°ú ÇÁ·¹ÀÓ »çÀÌÀÇ ½Ã°£ °£°Ý
+	
+	// Frequency = 1ì´ˆë‹¹ ì…€ìˆ˜ ìžˆëŠ” ì¹´ìš´íŠ¸ ê°’
+	// DeltaTime = í”„ë ˆìž„ê³¼ í”„ë ˆìž„ ì‚¬ì´ì˜ ì‹œê°„ ê°„ê²©
 	m_dDT = (double)(m_llCurCount.QuadPart - m_llPrevCount.QuadPart) / (double)m_llFrequency.QuadPart;
 
-	// ¿ª¼ö¸¦ ÃëÇÏ¸é -> FPS ( ÃÊ´ç ÇÁ·¹ÀÓ È½¼ö ) ±×·¯³ª Á» ºÒ¾ÈÁ¤
+	// ì—­ìˆ˜ë¥¼ ì·¨í•˜ë©´ -> FPS ( ì´ˆë‹¹ í”„ë ˆìž„ íšŸìˆ˜ ) ê·¸ëŸ¬ë‚˜ ì¢€ ë¶ˆì•ˆì •
 
-	// ÀÌÀü Ä«¿îÆ® °ªÀ» ÇöÀç°ªÀ¸·Î °»½Å ( ´ÙÀ½¹ø¿¡ °è»êÀ» À§ÇØ¼­ )
+	// ì´ì „ ì¹´ìš´íŠ¸ ê°’ì„ í˜„ìž¬ê°’ìœ¼ë¡œ ê°±ì‹  ( ë‹¤ìŒë²ˆì— ê³„ì‚°ì„ ìœ„í•´ì„œ )
 	m_llPrevCount = m_llCurCount;
 
 	++m_iCallCount;
-	m_dAcc += m_dDT; // DT ´©Àû => Áï Èå¸¥ ½Ã°£
+	m_dAcc += m_dDT; // DT ëˆ„ì  => ì¦‰ íë¥¸ ì‹œê°„
 
 	if (m_dAcc >= 1.)
 	{

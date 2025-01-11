@@ -48,6 +48,9 @@ private :
 	POINT m_ptResolution; // 해상도
 	HDC m_hDC; // 메인 윈도우에 Draw 할 DC
 
+	HBITMAP m_hBit;
+	HDC m_memDC;
+
 public :
 	int init(HWND _hWnd, POINT _ptResolution); // 윈도우의 크기 조절
 	void progress(); // 메세지가 발생하지 않는 대부분의 시간때 작업을 진행하는 함수
