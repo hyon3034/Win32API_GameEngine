@@ -1,6 +1,9 @@
 C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCore.cpp;C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\x64\Release\CCore.obj
 C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CKeyMgr.cpp;C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\x64\Release\CKeyMgr.obj
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CMissile.cpp;C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\x64\Release\CMissile.obj
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CMonster.cpp;C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\x64\Release\CMonster.obj
 C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CObject.cpp;C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\x64\Release\CObject.obj
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CPlayer.cpp;C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\x64\Release\CPlayer.obj
 C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CScene.cpp;C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\x64\Release\CScene.obj
 C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CSceneMgr.cpp;C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\x64\Release\CSceneMgr.obj
 C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CScene_Start.cpp;C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\x64\Release\CScene_Start.obj

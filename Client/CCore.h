@@ -1,19 +1,19 @@
 #pragma once
 
-//// ½Ì±ÛÅæ ÆÐÅÏ
-//// °´Ã¼ÀÇ »ý¼ºÀ» 1°³·Î Á¦ÇÑ
-//// ¾ðÁ¦ ¾îµð¼­µç ½±°Ô Á¢±Ù °¡´É
+//// ì‹±ê¸€í†¤ íŒ¨í„´
+//// ê°ì²´ì˜ ìƒì„±ì„ 1ê°œë¡œ ì œí•œ
+//// ì–¸ì œ ì–´ë””ì„œë“  ì‰½ê²Œ ì ‘ê·¼ ê°€ëŠ¥
 //class CCore
 //{
 //	static CCore* g_pInst;
 //
 //public:
 //
-//	// Á¤Àû ¸â¹öÇÔ¼ö
+//	// ì •ì  ë©¤ë²„í•¨ìˆ˜
 //	static CCore* GetInstance()
 //	{
 //
-//		// ÃÖÃÊ È£Ãâ µÈ °æ¿ì
+//		// ìµœì´ˆ í˜¸ì¶œ ëœ ê²½ìš°
 //		if (nullptr == g_pInst)
 //		{
 //			g_pInst = new CCore;
@@ -22,7 +22,7 @@
 //		return g_pInst;
 //	}
 //
-//	static void Release() // ½Ì±ÛÅæ ÇØÁ¦ ÇÔ¼ö
+//	static void Release() // ì‹±ê¸€í†¤ í•´ì œ í•¨ìˆ˜
 //	{
 //		if (nullptr != g_pInst)
 //		{
@@ -36,24 +36,24 @@
 //};
 
 
-// Delete ÇÒ¼ö°¡ ¾øÀ½. ÇÁ·Î±×·¥ÀÌ Á¾·áµÉ¶§±îÁö ²ø°í °¡¾ßÇÔ 
-// Áß°£¿¡ Áö¿öÁúÀÏÀÌ ¾øÀ¸´Ï±î ±×³É º¸Åë µ¥ÀÌÅÍ ¿µ¿ª¿¡ ¿Ã·Á³õ°í ¾¸
+// Delete í• ìˆ˜ê°€ ì—†ìŒ. í”„ë¡œê·¸ëž¨ì´ ì¢…ë£Œë ë•Œê¹Œì§€ ëŒê³  ê°€ì•¼í•¨ 
+// ì¤‘ê°„ì— ì§€ì›Œì§ˆì¼ì´ ì—†ìœ¼ë‹ˆê¹Œ ê·¸ëƒ¥ ë³´í†µ ë°ì´í„° ì˜ì—­ì— ì˜¬ë ¤ë†“ê³  ì”€
 
 class CCore
 {
 	SINGLE(CCore)
 
 private :
-	HWND  m_hWnd; // ¸ÞÀÎ À©µµ¿ì ÇÚµé
-	POINT m_ptResolution; // ÇØ»óµµ
-	HDC m_hDC; // ¸ÞÀÎ À©µµ¿ì¿¡ Draw ÇÒ DC
+	HWND  m_hWnd; // ë©”ì¸ ìœˆë„ìš° í•¸ë“¤
+	POINT m_ptResolution; // í•´ìƒë„
+	HDC m_hDC; // ë©”ì¸ ìœˆë„ìš°ì— Draw í•  DC
 
 	HBITMAP m_hBit;
 	HDC m_memDC;
 
 public :
-	int init(HWND _hWnd, POINT _ptResolution); // À©µµ¿ìÀÇ Å©±â Á¶Àý
-	void progress(); // ¸Þ¼¼Áö°¡ ¹ß»ýÇÏÁö ¾Ê´Â ´ëºÎºÐÀÇ ½Ã°£¶§ ÀÛ¾÷À» ÁøÇàÇÏ´Â ÇÔ¼ö
+	int init(HWND _hWnd, POINT _ptResolution); // ìœˆë„ìš°ì˜ í¬ê¸° ì¡°ì ˆ
+	void progress(); // ë©”ì„¸ì§€ê°€ ë°œìƒí•˜ì§€ ì•ŠëŠ” ëŒ€ë¶€ë¶„ì˜ ì‹œê°„ë•Œ ìž‘ì—…ì„ ì§„í–‰í•˜ëŠ” í•¨ìˆ˜
 
 private :
 	void update();
@@ -61,4 +61,5 @@ private :
 
 public:
 	HWND GetMainHwnd() { return m_hWnd; }
+    POINT GetResolution() { return m_ptResolution; }
 };

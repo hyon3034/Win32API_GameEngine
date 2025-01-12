@@ -14,5 +14,8 @@ public:
     void init();
     void update();
     void render(HDC _dc);
+
+public:
+    CScene* GetCurScene() { return m_pCurScene; }
 };
 

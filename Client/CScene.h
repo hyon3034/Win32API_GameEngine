@@ -19,7 +19,7 @@ public:
     virtual void Enter() = 0; // 해당 Scene에 진입 시 호출
     virtual void Exit() = 0; // 해당 Scene을 탈출 시 호출
 
-protected:
+public:
     void AddObject(CObject* _pObj, GROUP_TYPE _eType)
     {
         m_arrObj[(UINT)_eType].push_back(_pObj);
@@ -28,5 +28,5 @@ protected:
 public:
     CScene();
     virtual ~CScene();
-};
+};    
 
