@@ -3,12 +3,11 @@
 
 #include "CTimeMgr.h"
 #include "CKeyMgr.h"
+#include "CSceneMgr.h"
 
 #include "CObject.h"
 
 // CCore* CCore::g_pInst = nullptr;
-
-CObject g_obj;
 
 CCore::CCore()
 	: m_hWnd(0)
@@ -60,9 +59,7 @@ int CCore::init(HWND _hWnd, POINT _ptResolution)
 	// Manager 초기화
 	CTimeMgr::GetInst()->init();
 	CKeyMgr::GetInst()->init();
-
-	g_obj.SetPos(Vec2((float)(m_ptResolution.x/2), (float)(m_ptResolution.y/2)));
-	g_obj.SetScale(Vec2(100,100));
+    CSceneMgr::GetInst()->init();
 
 	return S_OK;
 }
@@ -73,45 +70,18 @@ void CCore::progress() // 프로그램이 도는 곳
 	CTimeMgr::GetInst()->update();
     CKeyMgr::GetInst()->update();
 
-	update();
+    CSceneMgr::GetInst()->update();
 
-	render();
-}
+    // =============
+    // Rendering
+    // =============
 
-void CCore::update()
-{
-	Vec2 vPos = g_obj.GetPos();
+    // 화면 청소
+    // -1인 이유 (테투리선이 보이니까)
+    Rectangle(m_memDC, -1, -1, m_ptResolution.x + 1, m_ptResolution.y + 1);
 
-	// 키입력 받음, 비동기 키입력
-	if (CKeyMgr::GetInst()->GetKeyState(KEY::LEFT) == KEY_STATE::HOLD) // 왼쪽 키 눌림
-	{
-        vPos.x -= 200.f * CTimeMgr::GetInst()->GetfDT();
-	}
-	
-	if (CKeyMgr::GetInst()->GetKeyState(KEY::RIGHT) == KEY_STATE::HOLD) // 왼쪽 키 눌림
-	{
-        vPos.x += 200.f * CTimeMgr::GetInst()->GetfDT();
-	}
+    CSceneMgr::GetInst()->render(m_memDC);
 
-	g_obj.SetPos(vPos);
-
-}
-
-void CCore::render()
-{
-	// 화면 청소
-	// -1인 이유 (테투리선이 보이니까)
-	Rectangle(m_memDC, -1, -1, m_ptResolution.x + 1, m_ptResolution.y + 1);
-
-	Vec2 vPos = g_obj.GetPos();
-	Vec2 vScale = g_obj.GetScale();
-
-	// 그리기
-	Rectangle(m_memDC, int(vPos.x - vScale.x / 2.f)
-					, int(vPos.y - vScale.y / 2.f)
-					, int(vPos.x + vScale.x / 2.f)
-					, int(vPos.y + vScale.y / 2.f));
-
-	// 비트맵을 복사
-	BitBlt(m_hDC, 0, 0, m_ptResolution.x, m_ptResolution.y, m_memDC, 0, 0, SRCCOPY);
+    // 비트맵을 복사
+    BitBlt(m_hDC, 0, 0, m_ptResolution.x, m_ptResolution.y, m_memDC, 0, 0, SRCCOPY);
 }
