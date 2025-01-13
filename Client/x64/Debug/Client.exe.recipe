@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\x64\Debug\Client.exe</FullPath>
+      <FullPath>C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Output\bin_debug\Client.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -1,49 +1,16 @@
-﻿  CMissile.cpp
-C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-  (compiling source file 'CMissile.cpp')
+﻿  CPathMgr.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CPathMgr.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CPathMgr.cpp'을(를) 컴파일하는 중)
   
-C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CMissile.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-  (compiling source file 'CMissile.cpp')
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCore.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CPathMgr.cpp'을(를) 컴파일하는 중)
   
-  CObject.cpp
-C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-  (compiling source file 'CObject.cpp')
-  
-  CPlayer.cpp
-C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-  (compiling source file 'CPlayer.cpp')
-  
-C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CSceneMgr.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-  (compiling source file 'CPlayer.cpp')
-  
-C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CScene.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-  (compiling source file 'CPlayer.cpp')
-  
-C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CKeyMgr.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-  (compiling source file 'CPlayer.cpp')
-  
-C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CMissile.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-  (compiling source file 'CPlayer.cpp')
-  
-  CScene_Start.cpp
-C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CScene_Start.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-  (compiling source file 'CScene_Start.cpp')
-  
-C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CScene.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-  (compiling source file 'CScene_Start.cpp')
-  
-C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CMonster.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-  (compiling source file 'CScene_Start.cpp')
-  
-C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCore.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-  (compiling source file 'CScene_Start.cpp')
-  
-  Generating code
-  9 of 246 functions ( 3.7%) were compiled, the rest were copied from previous compilation.
-    1 functions were new in current compilation
-    2 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-  Client.vcxproj -> C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\x64\Release\Client.exe
+  코드를 생성하고 있습니다.
+  6 of 254 functions ( 2.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    3 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  Client.vcxproj -> C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Output\bin\Client.exe
   'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
   배치 파일이 아닙니다.

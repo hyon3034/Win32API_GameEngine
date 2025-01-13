@@ -4,8 +4,7 @@
 #include "CTimeMgr.h"
 #include "CKeyMgr.h"
 #include "CSceneMgr.h"
-
-#include "CObject.h"
+#include "CPathMgr.h"
 
 // CCore* CCore::g_pInst = nullptr;
 
@@ -57,6 +56,7 @@ int CCore::init(HWND _hWnd, POINT _ptResolution)
 
 
 	// Manager 초기화
+    CPathMgr::GetInst()->init();
 	CTimeMgr::GetInst()->init();
 	CKeyMgr::GetInst()->init();
     CSceneMgr::GetInst()->init();
