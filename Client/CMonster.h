@@ -15,6 +15,12 @@ public:
     void SetSpeed(float _f) { m_fSpeed = _f; }
     void SetMoveDistance(float _f) { m_fMaxDistance = _f; }
     void SetCenterPos(Vec2 _vPos) { m_vCenterPos = _vPos; }
+    Vec2 GetCenterPos() { return m_vCenterPos; }
+
+public:
+    virtual void OnCollisionEnter(CCollider* _pOther);
+
+
 
 public:
     virtual void update();

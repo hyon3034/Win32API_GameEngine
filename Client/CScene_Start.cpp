@@ -11,6 +11,8 @@
 #include "CPathMgr.h"
 #include "CTexture.h"
 
+#include "CCollisionMgr.h"
+
 CScene_Start::CScene_Start()
 {
 }
@@ -28,10 +30,10 @@ void CScene_Start::Enter()
     pObj->SetPos(Vec2(640.f, 384.f));
     pObj->SetScale(Vec2(100.f, 100.f));                                                     
 
-    AddObject(pObj, GROUP_TYPE::DEFAULT);
+    AddObject(pObj, GROUP_TYPE::PLAYER);
 
     // Monster 추가
-    int iMonCount = 16;
+    int iMonCount = 2;
     float fMoveDist = 25.f;
     float fObjScale = 50.f;
 
@@ -47,10 +49,18 @@ void CScene_Start::Enter()
         pMonsterObj->SetCenterPos(pMonsterObj->GetPos());
         pMonsterObj->SetMoveDistance(fMoveDist);
         pMonsterObj->SetScale(Vec2(fObjScale, fObjScale));
-        AddObject(pMonsterObj, GROUP_TYPE::DEFAULT);
+        AddObject(pMonsterObj, GROUP_TYPE::MONSTER);
     }
+
+    // 충돌 지정
+    // Player 그룹과 Monster 그룹 간의 충돌 체크
+    CCollisionMgr::GetInst()->CheckGroup(GROUP_TYPE::PLAYER, GROUP_TYPE::MONSTER);
+
 }
 
 void CScene_Start::Exit()
 {
+    // 충돌 그룹을 해제
+    CCollisionMgr::GetInst()->Reset();
+
 }
