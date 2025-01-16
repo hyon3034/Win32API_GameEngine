@@ -11,56 +11,16 @@
       "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CMonster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CScene_Start.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CScene_Start.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollisionMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CCollisionMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollisionMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CCollisionMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CCollider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CScene_Start.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CScene_Start.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CTimeMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CTimeMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CTimeMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CTimeMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\SelectGDI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\SelectGDI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CEventMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CEventMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -71,30 +31,6 @@
       "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CCore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CPlayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CPlayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\struct.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\struct.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\SelectGDI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\SelectGDI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CMissile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CMissile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -103,43 +39,72 @@
       "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CMissile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CSceneMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CSceneMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\func.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\func.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CSceneMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CSceneMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CPlayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CPlayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CCollider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollisionMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CCollisionMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CScene_Start.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CScene_Start.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\func.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\func.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\struct.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\struct.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CTimeMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CTimeMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CEventMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CEventMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\new_scalar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CRes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CRes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CResMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CResMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CResMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CResMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CTexture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CTexture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CTexture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CTexture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CRes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43504C16-5F03-4694-831A-04C3C5408E08}|Client\\Client.vcxproj|solutionrelative:Client\\CRes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -149,110 +114,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CScene_Start.h",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CScene_Start.h",
-              "RelativeDocumentMoniker": "Client\\CScene_Start.h",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CScene_Start.h",
-              "RelativeToolTip": "Client\\CScene_Start.h",
+              "DocumentIndex": 5,
+              "Title": "CCore.h",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCore.h",
+              "RelativeDocumentMoniker": "Client\\CCore.h",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCore.h",
+              "RelativeToolTip": "Client\\CCore.h",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-15T07:30:42.569Z",
+              "WhenOpened": "2025-01-16T09:41:00.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CCollider.cpp",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollider.cpp",
-              "RelativeDocumentMoniker": "Client\\CCollider.cpp",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollider.cpp",
-              "RelativeToolTip": "Client\\CCollider.cpp",
-              "ViewState": "AgIAADAAAAAAAAAAAAAcwD8AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-13T07:31:09.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CObject.h",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CObject.h",
-              "RelativeDocumentMoniker": "Client\\CObject.h",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CObject.h",
-              "RelativeToolTip": "Client\\CObject.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-13T07:17:01.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CScene.h",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CScene.h",
-              "RelativeDocumentMoniker": "Client\\CScene.h",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CScene.h",
-              "RelativeToolTip": "Client\\CScene.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxMAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-13T07:48:59.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "CCollisionMgr.cpp",
               "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollisionMgr.cpp",
               "RelativeDocumentMoniker": "Client\\CCollisionMgr.cpp",
               "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollisionMgr.cpp",
               "RelativeToolTip": "Client\\CCollisionMgr.cpp",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAuwIIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAADwv3sAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-13T10:55:14.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CCollisionMgr.h",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollisionMgr.h",
-              "RelativeDocumentMoniker": "Client\\CCollisionMgr.h",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollisionMgr.h",
-              "RelativeToolTip": "Client\\CCollisionMgr.h",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-13T10:53:52.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CCollider.h",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollider.h",
-              "RelativeDocumentMoniker": "Client\\CCollider.h",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollider.h",
-              "RelativeToolTip": "Client\\CCollider.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAvwBoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-13T07:30:36.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CMonster.cpp",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CMonster.cpp",
-              "RelativeDocumentMoniker": "Client\\CMonster.cpp",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CMonster.cpp",
-              "RelativeToolTip": "Client\\CMonster.cpp",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAvwA0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-13T07:40:43.188Z",
+              "WhenOpened": "2025-01-16T09:26:12.658Z",
               "EditorCaption": ""
             },
             {
@@ -263,325 +150,309 @@
               "RelativeDocumentMoniker": "Client\\CMonster.h",
               "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CMonster.h",
               "RelativeToolTip": "Client\\CMonster.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-13T10:24:16.011Z",
+              "WhenOpened": "2025-01-16T09:22:34.027Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CScene.cpp",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CScene.cpp",
-              "RelativeDocumentMoniker": "Client\\CScene.cpp",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CScene.cpp",
-              "RelativeToolTip": "Client\\CScene.cpp",
-              "ViewState": "AgIAABQAAAAAAAAAAAAawCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-13T07:50:09.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "CScene_Start.cpp",
               "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CScene_Start.cpp",
               "RelativeDocumentMoniker": "Client\\CScene_Start.cpp",
               "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CScene_Start.cpp",
               "RelativeToolTip": "Client\\CScene_Start.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAQwCMAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvzAAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-13T10:39:36.597Z",
+              "WhenOpened": "2025-01-16T09:20:17.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CPlayer.h",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CPlayer.h",
-              "RelativeDocumentMoniker": "Client\\CPlayer.h",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CPlayer.h",
-              "RelativeToolTip": "Client\\CPlayer.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-12T16:06:28.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CSceneMgr.h",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CSceneMgr.h",
-              "RelativeDocumentMoniker": "Client\\CSceneMgr.h",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CSceneMgr.h",
-              "RelativeToolTip": "Client\\CSceneMgr.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-13T07:48:23.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CPlayer.cpp",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CPlayer.cpp",
-              "RelativeDocumentMoniker": "Client\\CPlayer.cpp",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CPlayer.cpp",
-              "RelativeToolTip": "Client\\CPlayer.cpp",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAABkAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-12T16:00:44.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "CTexture.h",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CTexture.h",
-              "RelativeDocumentMoniker": "Client\\CTexture.h",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CTexture.h",
-              "RelativeToolTip": "Client\\CTexture.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-12T16:20:23.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "new_scalar.cpp",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\new_scalar.cpp",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\new_scalar.cpp",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\new_scalar.cpp",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\new_scalar.cpp",
-              "ViewState": "AgIAABEAAAAAAAAAAAAWwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-12T16:18:13.893Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CObject.cpp",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CObject.cpp",
-              "RelativeDocumentMoniker": "Client\\CObject.cpp",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CObject.cpp",
-              "RelativeToolTip": "Client\\CObject.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-13T07:32:30.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CTimeMgr.h",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CTimeMgr.h",
-              "RelativeDocumentMoniker": "Client\\CTimeMgr.h",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CTimeMgr.h",
-              "RelativeToolTip": "Client\\CTimeMgr.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-15T08:14:56.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CTimeMgr.cpp",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CTimeMgr.cpp",
-              "RelativeDocumentMoniker": "Client\\CTimeMgr.cpp",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CTimeMgr.cpp",
-              "RelativeToolTip": "Client\\CTimeMgr.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-15T08:15:01.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "CTexture.cpp",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CTexture.cpp",
-              "RelativeDocumentMoniker": "Client\\CTexture.cpp",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CTexture.cpp",
-              "RelativeToolTip": "Client\\CTexture.cpp",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAawAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-12T15:59:12.289Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SelectGDI.h",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\SelectGDI.h",
-              "RelativeDocumentMoniker": "Client\\SelectGDI.h",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\SelectGDI.h",
-              "RelativeToolTip": "Client\\SelectGDI.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-13T09:17:42.144Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CCore.h",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCore.h",
-              "RelativeDocumentMoniker": "Client\\CCore.h",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCore.h",
-              "RelativeToolTip": "Client\\CCore.h",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-13T08:52:15.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CCore.cpp",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCore.cpp",
-              "RelativeDocumentMoniker": "Client\\CCore.cpp",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCore.cpp",
-              "RelativeToolTip": "Client\\CCore.cpp",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAYwEYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-13T08:57:41.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "CRes.h",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CRes.h",
-              "RelativeDocumentMoniker": "Client\\CRes.h",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CRes.h",
-              "RelativeToolTip": "Client\\CRes.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-12T16:03:26.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "struct.h",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\struct.h",
-              "RelativeDocumentMoniker": "Client\\struct.h",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\struct.h",
-              "RelativeToolTip": "Client\\struct.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-13T08:34:58.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "define.h",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\define.h",
-              "RelativeDocumentMoniker": "Client\\define.h",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\define.h",
-              "RelativeToolTip": "Client\\define.h",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowBUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-12T15:25:00.2Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "SelectGDI.cpp",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\SelectGDI.cpp",
-              "RelativeDocumentMoniker": "Client\\SelectGDI.cpp",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\SelectGDI.cpp",
-              "RelativeToolTip": "Client\\SelectGDI.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-13T09:18:14.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "pch.h",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\pch.h",
-              "RelativeDocumentMoniker": "Client\\pch.h",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\pch.h",
-              "RelativeToolTip": "Client\\pch.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-12T15:25:01.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CMissile.cpp",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CMissile.cpp",
-              "RelativeDocumentMoniker": "Client\\CMissile.cpp",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CMissile.cpp",
-              "RelativeToolTip": "Client\\CMissile.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-13T07:40:52.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CSceneMgr.cpp",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CSceneMgr.cpp",
-              "RelativeDocumentMoniker": "Client\\CSceneMgr.cpp",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CSceneMgr.cpp",
-              "RelativeToolTip": "Client\\CSceneMgr.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAADwvygAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-13T07:48:20.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 8,
               "Title": "CMissile.h",
               "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CMissile.h",
               "RelativeDocumentMoniker": "Client\\CMissile.h",
               "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CMissile.h",
               "RelativeToolTip": "Client\\CMissile.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-13T07:59:15.663Z"
+              "WhenOpened": "2025-01-16T08:44:13.262Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "CRes.cpp",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CRes.cpp",
-              "RelativeDocumentMoniker": "Client\\CRes.cpp",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CRes.cpp",
-              "RelativeToolTip": "Client\\CRes.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-12T16:03:23.621Z"
+              "DocumentIndex": 23,
+              "Title": "CObject.h",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CObject.h",
+              "RelativeDocumentMoniker": "Client\\CObject.h",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CObject.h",
+              "RelativeToolTip": "Client\\CObject.h",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-16T08:25:20.877Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 25,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\main.cpp",
               "RelativeDocumentMoniker": "Client\\main.cpp",
               "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\main.cpp",
               "RelativeToolTip": "Client\\main.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAmwCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-12T10:07:27.65Z"
+              "WhenOpened": "2025-01-16T08:11:31.431Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "CResMgr.cpp",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CResMgr.cpp",
-              "RelativeDocumentMoniker": "Client\\CResMgr.cpp",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CResMgr.cpp",
-              "RelativeToolTip": "Client\\CResMgr.cpp",
-              "ViewState": "AgIAABQAAAAAAAAAAAAqwB4AAAAkAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "CMissile.cpp",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CMissile.cpp",
+              "RelativeDocumentMoniker": "Client\\CMissile.cpp",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CMissile.cpp",
+              "RelativeToolTip": "Client\\CMissile.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-12T15:23:34.699Z"
+              "WhenOpened": "2025-01-16T08:05:48.659Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "CResMgr.h",
-              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CResMgr.h",
-              "RelativeDocumentMoniker": "Client\\CResMgr.h",
-              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CResMgr.h",
-              "RelativeToolTip": "Client\\CResMgr.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CMonster.cpp",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CMonster.cpp",
+              "RelativeDocumentMoniker": "Client\\CMonster.cpp",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CMonster.cpp",
+              "RelativeToolTip": "Client\\CMonster.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T07:54:34.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CCore.cpp",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCore.cpp",
+              "RelativeDocumentMoniker": "Client\\CCore.cpp",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCore.cpp",
+              "RelativeToolTip": "Client\\CCore.cpp",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAGwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T07:43:10.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "struct.h",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\struct.h",
+              "RelativeDocumentMoniker": "Client\\struct.h",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\struct.h",
+              "RelativeToolTip": "Client\\struct.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-12T15:23:20.656Z"
+              "WhenOpened": "2025-01-16T07:35:20.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "define.h",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\define.h",
+              "RelativeDocumentMoniker": "Client\\define.h",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\define.h",
+              "RelativeToolTip": "Client\\define.h",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvx0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-16T07:32:22.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CObject.cpp",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CObject.cpp",
+              "RelativeDocumentMoniker": "Client\\CObject.cpp",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CObject.cpp",
+              "RelativeToolTip": "Client\\CObject.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T07:25:05.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CScene.cpp",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CScene.cpp",
+              "RelativeDocumentMoniker": "Client\\CScene.cpp",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CScene.cpp",
+              "RelativeToolTip": "Client\\CScene.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvyUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T08:06:35.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CPlayer.cpp",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CPlayer.cpp",
+              "RelativeDocumentMoniker": "Client\\CPlayer.cpp",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CPlayer.cpp",
+              "RelativeToolTip": "Client\\CPlayer.cpp",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAvwGgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T07:25:04.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "func.cpp",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\func.cpp",
+              "RelativeDocumentMoniker": "Client\\func.cpp",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\func.cpp",
+              "RelativeToolTip": "Client\\func.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T07:28:07.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CEventMgr.cpp",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CEventMgr.cpp",
+              "RelativeDocumentMoniker": "Client\\CEventMgr.cpp",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CEventMgr.cpp",
+              "RelativeToolTip": "Client\\CEventMgr.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T07:18:45.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CTimeMgr.cpp",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CTimeMgr.cpp",
+              "RelativeDocumentMoniker": "Client\\CTimeMgr.cpp",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CTimeMgr.cpp",
+              "RelativeToolTip": "Client\\CTimeMgr.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T09:16:13.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CCollisionMgr.h",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollisionMgr.h",
+              "RelativeDocumentMoniker": "Client\\CCollisionMgr.h",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollisionMgr.h",
+              "RelativeToolTip": "Client\\CCollisionMgr.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-16T09:26:11.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CCollider.h",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollider.h",
+              "RelativeDocumentMoniker": "Client\\CCollider.h",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollider.h",
+              "RelativeToolTip": "Client\\CCollider.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-16T09:26:23.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CCollider.cpp",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollider.cpp",
+              "RelativeDocumentMoniker": "Client\\CCollider.cpp",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CCollider.cpp",
+              "RelativeToolTip": "Client\\CCollider.cpp",
+              "ViewState": "AgIAADkAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T09:26:24.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CPlayer.h",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CPlayer.h",
+              "RelativeDocumentMoniker": "Client\\CPlayer.h",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CPlayer.h",
+              "RelativeToolTip": "Client\\CPlayer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-16T09:26:51.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CTimeMgr.h",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CTimeMgr.h",
+              "RelativeDocumentMoniker": "Client\\CTimeMgr.h",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CTimeMgr.h",
+              "RelativeToolTip": "Client\\CTimeMgr.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-16T09:16:59.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "pch.h",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\pch.h",
+              "RelativeDocumentMoniker": "Client\\pch.h",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\pch.h",
+              "RelativeToolTip": "Client\\pch.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-16T07:29:05.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "func.h",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\func.h",
+              "RelativeDocumentMoniker": "Client\\func.h",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\func.h",
+              "RelativeToolTip": "Client\\func.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-16T07:27:45.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CEventMgr.h",
+              "DocumentMoniker": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CEventMgr.h",
+              "RelativeDocumentMoniker": "Client\\CEventMgr.h",
+              "ToolTip": "C:\\Users\\Jaehyeon\\Desktop\\GITHUB\\Win32API\\WinProj\\WinApiLecture\\Client\\CEventMgr.h",
+              "RelativeToolTip": "Client\\CEventMgr.h",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-16T07:17:48.355Z",
+              "EditorCaption": ""
             }
           ]
         }

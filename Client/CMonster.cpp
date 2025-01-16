@@ -9,6 +9,7 @@ CMonster::CMonster()
     , m_fSpeed(100.f)
     , m_fMaxDistance(50.f)
     , m_iDir(1)
+    , m_iHP(5)
 {
     CreateCollider(); // 부모 렌더러에서 Render 해줌
     GetCollider()->SetScale(Vec2(40.f, 40.f));
@@ -21,12 +22,15 @@ CMonster::~CMonster()
 
 void CMonster::OnCollisionEnter(CCollider* _pOther)
 {
-    CObject* pOhterObj = _pOther->GetObj();
+    CObject* pOtherObj = _pOther->GetObj();
 
-    //if (_pOther->GetName() == L"Missile")
-    //{
+    if (pOtherObj->GetName() == L"Missile_Player")
+    {
+        m_iHP -= 1;
 
-    //}
+        if(m_iHP <= 0)
+            DeleteObject(this);
+    }
 }
 
 void CMonster::update()

@@ -74,6 +74,9 @@
     <Filter Include="Engine\03. Manager\CollisionMgr">
       <UniqueIdentifier>{089e168b-0aad-40a0-a71b-cf1feb826191}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\03. Manager\EventMgr">
+      <UniqueIdentifier>{c8f095d2-b156-4535-b625-5c592e9ca825}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CCore.h">
@@ -149,6 +152,12 @@
     <ClInclude Include="CCollisionMgr.h">
       <Filter>Engine\03. Manager\CollisionMgr</Filter>
     </ClInclude>
+    <ClInclude Include="CEventMgr.h">
+      <Filter>Engine\03. Manager\EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Engine\01. Header</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Client.rc">
@@ -219,5 +228,9 @@
     <ClCompile Include="CCollisionMgr.cpp">
       <Filter>Engine\03. Manager\CollisionMgr</Filter>
     </ClCompile>
+    <ClCompile Include="CEventMgr.cpp">
+      <Filter>Engine\03. Manager\EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp" />
   </ItemGroup>
 </Project>

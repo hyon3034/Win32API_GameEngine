@@ -10,6 +10,8 @@ private:
     float m_fMaxDistance;
     int m_iDir; // 1 ( 우측 ), -1 ( 좌측 )
 
+    int m_iHP;
+
 public:
     float GetSpeed() { return m_fSpeed; }
     void SetSpeed(float _f) { m_fSpeed = _f; }

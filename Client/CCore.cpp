@@ -6,6 +6,7 @@
 #include "CSceneMgr.h"
 #include "CPathMgr.h"
 #include "CCollisionMgr.h"
+#include "CEventMgr.h"
 
 // CCore* CCore::g_pInst = nullptr;
 
@@ -78,10 +79,18 @@ int CCore::init(HWND _hWnd, POINT _ptResolution)
 
 void CCore::progress() // 프로그램이 도는 곳
 {
+    // ===============
 	// Manager Update
+    // ===============
 	CTimeMgr::GetInst()->update();
     CKeyMgr::GetInst()->update();
+
+    // ================
+    // Scene Update
+    // ================
     CSceneMgr::GetInst()->update();
+    
+    // 충돌 체크
     CCollisionMgr::GetInst()->update(); // 충돌검사 렌더링
 
     // =============
@@ -96,6 +105,14 @@ void CCore::progress() // 프로그램이 도는 곳
 
     // 비트맵을 복사
     BitBlt(m_hDC, 0, 0, m_ptResolution.x, m_ptResolution.y, m_memDC, 0, 0, SRCCOPY);
+
+    CTimeMgr::GetInst()->render();
+
+    // =================
+    // 이벤트 지연 처리
+    // =================
+    CEventMgr::GetInst()->update();
+
 }
 
 void CCore::CreateBrushPen()
