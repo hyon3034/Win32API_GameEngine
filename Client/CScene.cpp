@@ -65,4 +65,16 @@ void CScene::render(HDC _dc)
         }
     }
 }
+void CScene::DeleteGroup(GROUP_TYPE _eTarget)
+{
+    Safe_Delete_Vec(m_arrObj[(UINT)_eTarget]);
+}
+
+void CScene::DeleteAll()
+{
+    for (UINT i = 0; i < (UINT)GROUP_TYPE::END; ++i)
+    {
+        DeleteGroup((GROUP_TYPE)i);
+    }
+}
 

@@ -158,6 +158,9 @@
     <ClInclude Include="func.h">
       <Filter>Engine\01. Header</Filter>
     </ClInclude>
+    <ClInclude Include="CScene_Tool.h">
+      <Filter>Engine\05. Scene\Scene_Tool</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Client.rc">
@@ -232,5 +235,8 @@
       <Filter>Engine\03. Manager\EventMgr</Filter>
     </ClCompile>
     <ClCompile Include="func.cpp" />
+    <ClCompile Include="CScene_Tool.cpp">
+      <Filter>Engine\05. Scene\Scene_Tool</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

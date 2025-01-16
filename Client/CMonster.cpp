@@ -35,7 +35,7 @@ void CMonster::OnCollisionEnter(CCollider* _pOther)
 
 void CMonster::update()
 {
-    return;
+    // return;
     Vec2 vCurPos = GetPos();
 
     // 진행방향으로 시간당 m_fSpeed 만큼 이동 
@@ -52,7 +52,5 @@ void CMonster::update()
     }
 
     SetPos(vCurPos);
-
-
 }
 

@@ -13,12 +13,26 @@
 
 #include "CCollisionMgr.h"
 
+#include "CKeyMgr.h"
+#include "CSceneMgr.h"
+
 CScene_Start::CScene_Start()
 {
 }
 
 CScene_Start::~CScene_Start()
 {
+}
+
+void CScene_Start::update()
+{
+    CScene::update(); // 부모의 기능 호출
+
+    if (KEY_TAP(KEY::ENTER)) // tool scene 전환
+    {
+        ChangeScene(SCENE_TYPE::TOOL); // 이벤트 등록
+    }
+
 }
 
 void CScene_Start::Enter()
@@ -31,6 +45,10 @@ void CScene_Start::Enter()
     pObj->SetScale(Vec2(100.f, 100.f));                                                     
 
     AddObject(pObj, GROUP_TYPE::PLAYER);
+
+    CObject* pOtherPlayer = pObj->Clone();
+    pOtherPlayer->SetPos(Vec2(740.f, 384.f));
+    AddObject(pOtherPlayer, GROUP_TYPE::PLAYER);
 
     // Monster 추가
     int iMonCount = 2;
@@ -62,7 +80,8 @@ void CScene_Start::Enter()
 
 void CScene_Start::Exit()
 {
+    DeleteAll();
+
     // 충돌 그룹을 해제
     CCollisionMgr::GetInst()->Reset();
-
 }

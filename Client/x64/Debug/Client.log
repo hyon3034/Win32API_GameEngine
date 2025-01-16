@@ -1,4 +1,21 @@
-﻿  CCollisionMgr.cpp
+﻿  CCollider.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCollider.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CCollider.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\define.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CCollider.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCollider.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CCollider.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CObject.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CCollider.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCore.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CCollider.cpp'을(를) 컴파일하는 중)
+  
+  CCollisionMgr.cpp
 C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCollisionMgr.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   (소스 파일 'CCollisionMgr.cpp'을(를) 컴파일하는 중)
@@ -21,6 +38,85 @@ C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CObject.h
 C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCollider.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   (소스 파일 'CCollisionMgr.cpp'을(를) 컴파일하는 중)
   
+  CCore.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCore.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CCore.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\define.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CCore.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCore.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CCore.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CTimeMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CCore.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CKeyMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CCore.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CSceneMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CCore.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCollisionMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CCore.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CEventMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CCore.cpp'을(를) 컴파일하는 중)
+  
+  CEventMgr.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CEventMgr.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CEventMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\define.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CEventMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CEventMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CEventMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CObject.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CEventMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CSceneMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CEventMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CScene.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CEventMgr.cpp'을(를) 컴파일하는 중)
+  
+  CKeyMgr.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CKeyMgr.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CKeyMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\define.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CKeyMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CKeyMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CKeyMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCore.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CKeyMgr.cpp'을(를) 컴파일하는 중)
+  
+  CMissile.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CMissile.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\define.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CMissile.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CMissile.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CMissile.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CObject.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CMissile.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CTimeMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CMissile.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCollider.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CMissile.cpp'을(를) 컴파일하는 중)
+  
   CMonster.cpp
 C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CMonster.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
@@ -40,6 +136,122 @@ C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CTimeMgr.
   
 C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCollider.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   (소스 파일 'CMonster.cpp'을(를) 컴파일하는 중)
+  
+  CObject.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CObject.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CObject.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\define.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CObject.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CObject.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CObject.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCollider.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CObject.cpp'을(를) 컴파일하는 중)
+  
+  CPathMgr.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CPathMgr.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CPathMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\define.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CPathMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CPathMgr.cpp(19,14): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CPlayer.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CPlayer.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CPlayer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\define.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CPlayer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CPlayer.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CPlayer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CObject.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CPlayer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CSceneMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CPlayer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CScene.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CPlayer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CKeyMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CPlayer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CTimeMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CPlayer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CMissile.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CPlayer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CTexture.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CPlayer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CRes.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CPlayer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCollider.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CPlayer.cpp'을(를) 컴파일하는 중)
+  
+  CRes.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CRes.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\define.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CRes.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CRes.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CRes.cpp'을(를) 컴파일하는 중)
+  
+  CResMgr.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CResMgr.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CResMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\define.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CResMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CTexture.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CResMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CRes.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CResMgr.cpp'을(를) 컴파일하는 중)
+  
+  CScene.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CScene.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CScene.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\define.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CScene.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CScene.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CScene.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CObject.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CScene.cpp'을(를) 컴파일하는 중)
+  
+  CSceneMgr.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CSceneMgr.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CSceneMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\define.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CSceneMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CSceneMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CSceneMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CScene.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CSceneMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CEventMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CSceneMgr.cpp'을(를) 컴파일하는 중)
   
   CScene_Start.cpp
 C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CScene_Start.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
@@ -72,6 +284,99 @@ C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CRes.h(1,
   
 C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCollisionMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   (소스 파일 'CScene_Start.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CKeyMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CScene_Start.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CSceneMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CScene_Start.cpp'을(를) 컴파일하는 중)
+  
+  CScene_Tool.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CScene_Tool.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CScene_Tool.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\define.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CScene_Tool.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CScene.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CScene_Tool.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CKeyMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CScene_Tool.cpp'을(를) 컴파일하는 중)
+  
+  CSound.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CSound.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\define.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CSound.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CRes.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CSound.cpp'을(를) 컴파일하는 중)
+  
+  CTexture.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CTexture.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CTexture.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\define.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CTexture.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CTexture.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CTexture.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CRes.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CTexture.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCore.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CTexture.cpp'을(를) 컴파일하는 중)
+  
+  CTimeMgr.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CTimeMgr.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CTimeMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\define.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CTimeMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CTimeMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CTimeMgr.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCore.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'CTimeMgr.cpp'을(를) 컴파일하는 중)
+  
+  SelectGDI.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'SelectGDI.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\define.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'SelectGDI.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCore.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'SelectGDI.cpp'을(를) 컴파일하는 중)
+  
+  func.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\func.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'func.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\define.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'func.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CEventMgr.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'func.cpp'을(를) 컴파일하는 중)
+  
+  main.cpp
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\main.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\define.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Client\CCore.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
   
   Client.vcxproj -> C:\Users\Jaehyeon\Desktop\GITHUB\Win32API\WinProj\WinApiLecture\Output\bin_debug\Client.exe
   'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
