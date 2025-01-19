@@ -7,6 +7,7 @@
 #include "CPathMgr.h"
 #include "CCollisionMgr.h"
 #include "CEventMgr.h"
+#include "CCamera.h"
 
 // CCore* CCore::g_pInst = nullptr;
 
@@ -84,6 +85,7 @@ void CCore::progress() // 프로그램이 도는 곳
     // ===============
 	CTimeMgr::GetInst()->update();
     CKeyMgr::GetInst()->update();
+    CCamera::GetInst()->update();
 
     // ================
     // Scene Update

@@ -7,7 +7,6 @@ class CPlayer :
     public CObject
 {
 private:
-    CTexture* m_pTex; // 캐릭터의 texture
 
 public :
     virtual void update();
