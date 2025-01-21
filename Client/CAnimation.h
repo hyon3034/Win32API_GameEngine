@@ -1,5 +1,7 @@
 #pragma once
 
+#include "global.h"
+
 class CAnimator;
 class CTexture;
 

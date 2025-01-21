@@ -9,6 +9,9 @@ public:
     virtual void Enter();
     virtual void Exit();
     virtual void update();
+    
+public:
+    void SetTileIdx();
 
 public:
     CScene_Tool();
