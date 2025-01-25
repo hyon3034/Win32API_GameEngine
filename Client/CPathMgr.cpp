@@ -37,3 +37,18 @@ void CPathMgr::init()
 
 
 }
+
+wstring CPathMgr::GetRelativePath(const wchar_t* _filepath)
+{ 
+    wstring strFilePath = _filepath;
+
+    // 절대 경로 길이 
+    size_t iAbsLen = wcslen(m_szContentPath);
+    
+    // 전체 길이
+    size_t iFullLen = strFilePath.length();
+
+    wstring strRelativePath = strFilePath.substr(iAbsLen, iFullLen - iAbsLen);
+
+    return strRelativePath;
+}

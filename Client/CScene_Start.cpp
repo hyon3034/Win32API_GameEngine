@@ -80,6 +80,9 @@ void CScene_Start::Enter()
         AddObject(pMonsterObj, GROUP_TYPE::MONSTER);
     }
 
+    // 타일 로딩
+    // LoadTile(L"Tile\\Start.tile");
+
     // 충돌 지정
     // Player 그룹과 Monster 그룹 간의 충돌 체크
     CCollisionMgr::GetInst()->CheckGroup(GROUP_TYPE::PLAYER, GROUP_TYPE::MONSTER);

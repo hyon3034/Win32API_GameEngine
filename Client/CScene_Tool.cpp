@@ -6,8 +6,8 @@
 
 #include "CCore.h"
 #include "CResMgr.h"
-
 #include "CSceneMgr.h"
+#include "CPathMgr.h"
 
 #include "Resource.h"
 #include "CUI.h"
@@ -19,6 +19,7 @@
 void ChangeScene(DWORD_PTR, DWORD_PTR);
 
 CScene_Tool::CScene_Tool()
+    : m_pUI(nullptr)
 {
 }
 
@@ -36,7 +37,7 @@ void CScene_Tool::Enter()
 
     CUI* pPanelUI = new CPanelUI;
     pPanelUI->SetName(L"ParentUI");
-    pPanelUI->SetScale(Vec2(500.f, 300.f));
+    pPanelUI->SetScale(Vec2(300.f, 150.f));
     pPanelUI->SetPos(Vec2(vResolution.x - pPanelUI->GetScale().x, 0.f));
 
     CBtnUI* pBtnUI = new CBtnUI;
@@ -48,13 +49,15 @@ void CScene_Tool::Enter()
 
     AddObject(pPanelUI, GROUP_TYPE::UI);
 
-    CUI* pClonePanel = pPanelUI->Clone();
-    pClonePanel->SetPos(pClonePanel->GetPos() + Vec2(-300.f, 0.f));
-    ((CBtnUI*)pClonePanel->GetChildUI()[0])->SetClickedCallBack(ChangeScene, 0, 0);
+    
+    // 복사본 UI
+    //CUI* pClonePanel = pPanelUI->Clone();
+    //pClonePanel->SetPos(pClonePanel->GetPos() + Vec2(-300.f, 0.f));
+    //((CBtnUI*)pClonePanel->GetChildUI()[0])->SetClickedCallBack(ChangeScene, 0, 0);
 
-    AddObject(pClonePanel, GROUP_TYPE::UI);
+    //AddObject(pClonePanel, GROUP_TYPE::UI);
 
-    m_pUI = pClonePanel;
+    //m_pUI = pClonePanel;
 
     // Camera Look 지정
     CCamera::GetInst()->SetLookAt(vResolution / 2.f);
@@ -74,7 +77,14 @@ void CScene_Tool::update()
 
     if (KEY_TAP(KEY::LSHIFT))
     {
-        CUIMgr::GetInst()->SetFocusedUI(m_pUI);
+        //CUIMgr::GetIns\t()->SetFocusedUI(m_pUI);
+        SaveTileData();
+    }
+
+    if (KEY_TAP(KEY::CTRL))
+    {
+        //CUIMgr::GetIns\t()->SetFocusedUI(m_pUI);
+        LoadTileData();
     }
 }
 
@@ -101,6 +111,95 @@ void CScene_Tool::SetTileIdx()
 
         const vector<CObject*>& vecTile = GetGroupObject(GROUP_TYPE::TILE);
         ((CTile*)vecTile[iIdx])->AddImgIdx();
+    }
+}
+
+void CScene_Tool::SaveTileData()
+{
+    wchar_t szName[256] = {};
+
+    OPENFILENAME ofn = {};
+
+    ofn.lStructSize = sizeof(OPENFILENAME);
+    ofn.hwndOwner = CCore::GetInst()->GetMainHwnd();
+    // 완성된 경로가 채워질 곳
+    ofn.lpstrFile = szName;
+    ofn.nMaxFile = sizeof(szName);
+    // 아무 이름이나 아무 확장자 여도 됨 ( 이 필터들만 적용되서 골라짐 )
+    ofn.lpstrFilter = L"ALL\0*.*\0Tile\0*.tile\0";
+    ofn.nFilterIndex = 0;
+    ofn.lpstrFileTitle = nullptr;
+    ofn.nMaxFileTitle = 0;
+
+    wstring strTileFolder = CPathMgr::GetInst()->GetContentPath(); // 절대경로
+    strTileFolder += L"tile";
+
+    ofn.lpstrInitialDir = strTileFolder.c_str();
+    ofn.Flags = OFN_PATHMUSTEXIST | OFN_FILEMUSTEXIST;
+
+    // 창 열어주는 함수, Modal 방식
+    if (GetSaveFileName(&ofn)) // 저장하기를 눌렀을때, true값 반환
+    {
+        SaveTile(szName);
+    }
+}
+
+void CScene_Tool::SaveTile(const wstring& _strFilePath)
+{
+    // 커널 오브젝트
+    FILE* pFile = nullptr;
+    
+    // 이중포인터 wb ( 바이너리로 쓰기, b를 안쓰면 문자로 저장함 )
+    _wfopen_s(&pFile, _strFilePath.c_str(), L"wb");
+
+    assert(pFile);
+
+    // 데이터 저장
+    UINT xCount = GetTileX();
+    UINT yCount = GetTileY();
+
+    fwrite(&xCount, sizeof(UINT), 1, pFile);
+    fwrite(&yCount, sizeof(UINT), 1, pFile);
+
+    // 모든 타일들을 개별적으로 저장할 데이터를 저장하게 함
+    const vector<CObject*>& vecTile = GetGroupObject(GROUP_TYPE::TILE);
+    
+    for (size_t i = 0; i < vecTile.size(); ++i)
+    {
+        ((CTile*)vecTile[i])->Save(pFile);
+    }
+    
+    fclose(pFile);
+}
+
+void CScene_Tool::LoadTileData()
+{
+    wchar_t szName[256] = {};
+
+    OPENFILENAME ofn = {};
+
+    ofn.lStructSize = sizeof(OPENFILENAME);
+    ofn.hwndOwner = CCore::GetInst()->GetMainHwnd();
+    // 완성된 경로가 채워질 곳
+    ofn.lpstrFile = szName;
+    ofn.nMaxFile = sizeof(szName);
+    // 아무 이름이나 아무 확장자 여도 됨 ( 이 필터들만 적용되서 골라짐 )
+    ofn.lpstrFilter = L"ALL\0*.*\0Tile\0*.tile\0";
+    ofn.nFilterIndex = 0;
+    ofn.lpstrFileTitle = nullptr;
+    ofn.nMaxFileTitle = 0;
+
+    wstring strTileFolder = CPathMgr::GetInst()->GetContentPath(); // 절대경로
+    strTileFolder += L"tile";
+
+    ofn.lpstrInitialDir = strTileFolder.c_str();
+    ofn.Flags = OFN_PATHMUSTEXIST | OFN_FILEMUSTEXIST;
+
+    // 창 열어주는 함수, Modal 방식
+    if (GetOpenFileName(&ofn)) // 저장하기를 눌렀을때, true값 반환
+    {
+        wstring strRelativePath = CPathMgr::GetInst()->GetRelativePath(szName);
+        LoadTile(strRelativePath);
     }
 }
 
