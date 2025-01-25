@@ -13,7 +13,6 @@ private :
 	Vec2 m_vPos;
 	Vec2 m_vScale;
 
-
     // component
     CCollider* m_pCollider;
     CAnimator* m_pAnimator;
@@ -44,7 +43,7 @@ public:
 
 public:
     virtual void update() = 0;
-    virtual void finalupdate() final;
+    virtual void finalupdate();
     virtual void render(HDC _dc);
 
     void component_render(HDC _dc);
