@@ -37,6 +37,27 @@ CTexture* CResMgr::LoadTexture(const wstring& _strKey, const wstring& _strRelati
     return pTex;
 }
 
+CTexture* CResMgr::CreateTexture(const wstring& _strKey, UINT _iWidth, UINT _iHeight)
+{
+    // 같은 키가 이미 있는지 확인
+    CTexture* pTex = FindTexture(_strKey);
+    
+    if (pTex != nullptr)
+    {
+        return pTex;
+    }
+
+    // 파일로부터 로딩 X 바로 Create
+
+    pTex = new CTexture;
+    pTex->Create(_iWidth, _iHeight);
+    pTex->SetKey(_strKey);
+
+    m_mapTex.insert(make_pair(_strKey, pTex));
+
+    return pTex;
+}
+
 CTexture* CResMgr::FindTexture(const wstring& _strKey)
 {
     map<wstring, CRes*>::iterator iter = m_mapTex.find(_strKey);

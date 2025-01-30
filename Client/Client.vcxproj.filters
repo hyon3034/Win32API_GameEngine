@@ -50,15 +50,6 @@
     <Filter Include="Engine\04. Object\Missile">
       <UniqueIdentifier>{74b0b922-ab11-4730-a249-aafb3d140c0a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Engine\06. Resource">
-      <UniqueIdentifier>{0d76538f-afa2-4171-b73f-1852bd3d0b72}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\06. Resource\Texture">
-      <UniqueIdentifier>{ed5f5001-ed49-435f-a45a-058198fdb349}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\06. Resource\Sound">
-      <UniqueIdentifier>{4eefbd59-b590-4d48-a5b2-bc72e354ebda}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Engine\03. Manager\PathMgr">
       <UniqueIdentifier>{0ab13977-664f-493e-b44f-5dc4d145d956}</UniqueIdentifier>
     </Filter>
@@ -103,6 +94,48 @@
     </Filter>
     <Filter Include="Engine\04. Object\UI\BtnUI">
       <UniqueIdentifier>{349e89be-7437-469c-8318-8f11c630f25d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08. Module\AI">
+      <UniqueIdentifier>{e9d4a789-af96-4f0f-920b-67b033f7315f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08. Module\AI\State">
+      <UniqueIdentifier>{b6b0ddb9-54b2-47c2-a312-611daafc1861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08. Module\AI\State\Idle">
+      <UniqueIdentifier>{3b800a03-8eb8-4bf9-ad28-92f89e9c4260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08. Module\AI\State\Trace">
+      <UniqueIdentifier>{2bc9dafb-767b-45c7-a7bf-6ea1bbf0b540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08. Module\AI\State\Attack">
+      <UniqueIdentifier>{363b7732-62da-4e23-9314-f3656fa242df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08. Module\AI\State\Dead">
+      <UniqueIdentifier>{e8fa2c0e-1cbb-4ece-b230-bd73b240cbcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\09. Factory">
+      <UniqueIdentifier>{1f3f2bf4-8e02-4a04-8b5b-9302194a9b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\09. Factory\MonFactory">
+      <UniqueIdentifier>{5007204a-38d1-4554-b8a2-2540d6ebe766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07. Component\CRigidBody">
+      <UniqueIdentifier>{78f30ba5-2d70-4cd9-b8bf-b5aa21d29bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Resource">
+      <UniqueIdentifier>{0d76538f-afa2-4171-b73f-1852bd3d0b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Resource\Texture">
+      <UniqueIdentifier>{ed5f5001-ed49-435f-a45a-058198fdb349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Resource\Sound">
+      <UniqueIdentifier>{4eefbd59-b590-4d48-a5b2-bc72e354ebda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07. Component\CGravity">
+      <UniqueIdentifier>{8f56615f-59b3-4280-8d49-d335bf6164ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. Object\CGround">
+      <UniqueIdentifier>{fa6cf86a-27e8-4a13-93b9-30bfc016e50f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -215,6 +248,30 @@
     <ClInclude Include="CBtnUI.h">
       <Filter>Engine\04. Object\UI\BtnUI</Filter>
     </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>Engine\08. Module\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="CState.h">
+      <Filter>Engine\08. Module\AI\State</Filter>
+    </ClInclude>
+    <ClInclude Include="CIdleState.h">
+      <Filter>Engine\08. Module\AI\State\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="CTraceState.h">
+      <Filter>Engine\08. Module\AI\State\Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonFactory.h">
+      <Filter>Engine\09. Factory\MonFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="CRigidBody.h">
+      <Filter>Engine\07. Component\CRigidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="CGravity.h">
+      <Filter>Engine\07. Component\CGravity</Filter>
+    </ClInclude>
+    <ClInclude Include="CGround.h">
+      <Filter>Engine\04. Object\CGround</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Client.rc">
@@ -285,7 +342,6 @@
     <ClCompile Include="CEventMgr.cpp">
       <Filter>Engine\03. Manager\EventMgr</Filter>
     </ClCompile>
-    <ClCompile Include="func.cpp" />
     <ClCompile Include="CScene_Tool.cpp">
       <Filter>Engine\05. Scene\Scene_Tool</Filter>
     </ClCompile>
@@ -315,6 +371,33 @@
     </ClCompile>
     <ClCompile Include="CBtnUI.cpp">
       <Filter>Engine\04. Object\UI\BtnUI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>Engine\08. Module\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="CState.cpp">
+      <Filter>Engine\08. Module\AI\State</Filter>
+    </ClCompile>
+    <ClCompile Include="CIdleState.cpp">
+      <Filter>Engine\08. Module\AI\State\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="CTraceState.cpp">
+      <Filter>Engine\08. Module\AI\State\Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonFactory.cpp">
+      <Filter>Engine\09. Factory\MonFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>Engine\01. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CRigidBody.cpp">
+      <Filter>Engine\07. Component\CRigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="CGravity.cpp">
+      <Filter>Engine\07. Component\CGravity</Filter>
+    </ClCompile>
+    <ClCompile Include="CGround.cpp">
+      <Filter>Engine\04. Object\CGround</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

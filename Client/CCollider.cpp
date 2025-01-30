@@ -9,9 +9,10 @@
 UINT CCollider::g_iNextID = 0;
 
 CCollider::CCollider()
-    :m_pOwner(nullptr)
+    : m_pOwner(nullptr)
     , m_iID(g_iNextID++)
     , m_iCol(0)
+    , m_bActive(true)
 {
 }
 
@@ -21,6 +22,7 @@ CCollider::CCollider(const CCollider& _origin)
     , m_vScale(_origin.m_vScale)
     , m_iID(g_iNextID++)
     , m_iCol(_origin.m_iCol)
+    , m_bActive(_origin.m_bActive)
 {
 
 }

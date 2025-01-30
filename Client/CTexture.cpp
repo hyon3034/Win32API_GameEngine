@@ -34,3 +34,21 @@ void CTexture::Load(const wstring& _strFilePath)
 
     assert(m_hBit);
 }
+
+void CTexture::Create(UINT _iWidth, UINT _iHeight)
+{
+ 
+    HDC maindc = CCore::GetInst()->GetMainDC();
+
+    // m_hDC(메인 윈도우 DC)와 호환되는 비트맵 생성 ( 비트맵 ID 반환 )
+    m_hBit = CreateCompatibleBitmap(maindc, _iWidth, _iHeight);
+
+    // 그림을 그릴려면 DC가 필요. 뒤에서 그릴 캔버스를 타겟으로 하는 DC 생성
+    m_dc = CreateCompatibleDC(maindc);
+
+    // 비트맵과 DC를 연결, 가지고 있던 BITMAP 반환
+    HBITMAP hOldBit = (HBITMAP)SelectObject(m_dc, m_hBit);
+    DeleteObject(hOldBit);
+
+    GetObject(m_hBit, sizeof(BITMAP), &m_bitInfo);
+}

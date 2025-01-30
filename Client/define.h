@@ -30,8 +30,9 @@ enum class GROUP_TYPE
 {
     DEFAULT,
     TILE,
-    PLAYER,
+    GROUND,
     MONSTER,
+    PLAYER,
     PROJ_PLAYER,
     PROJ_MONSTER,
 
@@ -52,6 +53,7 @@ enum class SCENE_TYPE
 enum class BRUSH_TYPE
 {
     HOLLOW,
+    BLACK,
     END,
 };
 
@@ -69,5 +71,18 @@ enum class EVENT_TYPE
     CREATE_OBJECT,
     DELETE_OBJECT,
     SCENE_CHANGE,
+    CHANCE_AI_STATE,
+
     END
+};
+
+enum class MON_STATE
+{
+    IDLE,
+    PATROL,
+    TRACE,
+    ATT,
+    RUN,
+    DEAD,
+    END,
 };

@@ -29,6 +29,9 @@ CScene_Tool::~CScene_Tool()
 
 void CScene_Tool::Enter()
 {
+    // 툴 Scene 에서 사용할 메뉴를 붙인다
+    CCore::GetInst()->DockMenu();
+
     // 타일 생성
     CreateTile(5, 5);
 
@@ -44,9 +47,8 @@ void CScene_Tool::Enter()
     pBtnUI->SetName(L"ChildUI");
     pBtnUI->SetScale(Vec2(100.f, 40.f));
     pBtnUI->SetPos(Vec2(0.f, 0.f)); // 부모로부터 상대위치
-
+    ((CBtnUI*)pBtnUI)->SetClickedCallBack(this, (SCENE_MEMFUNC)&CScene_Tool::SaveTileData);
     pPanelUI->AddChild(pBtnUI);
-
     AddObject(pPanelUI, GROUP_TYPE::UI);
 
     
@@ -66,6 +68,8 @@ void CScene_Tool::Enter()
 
 void CScene_Tool::Exit()
 {   
+    CCore::GetInst()->DivideMenu();
+
     DeleteAll();
 }
 
@@ -75,11 +79,11 @@ void CScene_Tool::update()
 
     SetTileIdx();
 
-    if (KEY_TAP(KEY::LSHIFT))
-    {
-        //CUIMgr::GetIns\t()->SetFocusedUI(m_pUI);
-        SaveTileData();
-    }
+    //if (KEY_TAP(KEY::LSHIFT))
+    //{
+    //    //CUIMgr::GetIns\t()->SetFocusedUI(m_pUI);
+    //    SaveTileData();
+    //}
 
     if (KEY_TAP(KEY::CTRL))
     {

@@ -7,6 +7,9 @@
 
 #include "CUIMgr.h"
 
+#include "AI.h"
+#include "CState.h"
+
 CEventMgr::CEventMgr()
 {
 
@@ -73,7 +76,16 @@ void CEventMgr::Excute(const tEvent& _eve)
         // 포커스 UI 해제
         CUIMgr::GetInst()->SetFocusedUI(nullptr);
     }
-        break;
+    break;
+    case EVENT_TYPE::CHANCE_AI_STATE:
+    {
+        // lParam : AI
+        // wParam : Next Type
+
+        AI* pAI = (AI*)_eve.lParam;
+        MON_STATE eNextState = (MON_STATE)_eve.wParam;
+        pAI->ChangeState(eNextState);
     }
-   
+    break;
+    }
 }

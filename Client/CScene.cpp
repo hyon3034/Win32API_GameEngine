@@ -6,9 +6,13 @@
 #include "CResMgr.h"
 #include "CPathMgr.h"
 
+#include "CCore.h"
+#include "CCamera.h"
+
 CScene::CScene()
     : m_iTileX(0)
     , m_iTileY(0)
+    , m_pPlayer(nullptr)
 {
 }
 
@@ -23,6 +27,18 @@ CScene::~CScene()
         }
     }
 }
+
+void CScene::start()
+{
+    for (UINT i = 0; i < (UINT)GROUP_TYPE::END; ++i)
+    {
+        for (size_t j = 0; j < m_arrObj[i].size(); ++j)
+        {
+            m_arrObj[i][j]->start();
+        }
+    }
+}
+
 
 void CScene::update()
 {
@@ -53,6 +69,13 @@ void CScene::render(HDC _dc)
 {
     for (UINT i = 0; i < (UINT)GROUP_TYPE::END; ++i)
     {
+        // 타일 예외 처리
+        if ((UINT)GROUP_TYPE::TILE == i)
+        {
+            render_tile(_dc);
+            continue;
+        }
+
         vector<CObject*>::iterator iter = m_arrObj[i].begin();
 
 
@@ -70,6 +93,41 @@ void CScene::render(HDC _dc)
         }
     }
 }
+void CScene::render_tile(HDC _dc)
+{
+    const vector<CObject*>& vecTile = GetGroupObject(GROUP_TYPE::TILE);
+
+    Vec2 vCamLook = CCamera::GetInst()->GetLookAt();
+    Vec2 vResolution = CCore::GetInst()->GetResolution();
+
+    Vec2 vLeftTop = vCamLook - vResolution / 2.f;
+
+    int iTileSize = TILE_SIZE;
+
+    int iLTCol = (int)vLeftTop.x / iTileSize;
+    int iLTRow = (int)vLeftTop.y / iTileSize;
+    int iLTIdx = m_iTileX * iLTRow + iLTCol;
+
+    int iClientWidth = (int)vResolution.x / iTileSize + 1;
+    int iClientHeight = (int)vResolution.y / iTileSize + 1;
+
+    for (int iCurRow = iLTRow; iCurRow < (iLTRow + iClientHeight); ++iCurRow)
+    {
+        for (int iCurCol = iLTCol; iCurCol < (iLTCol + iClientWidth); ++iCurCol)
+        {
+            if (iCurCol < 0 || m_iTileX <= iCurCol
+                || iCurRow < 0 || m_iTileY <= iCurRow)
+            {
+                continue;
+            }
+
+            int iIdx = (m_iTileX * iCurRow) + iCurCol;
+
+            vecTile[iIdx]->render(_dc);
+        }
+    }
+}
+
 void CScene::DeleteGroup(GROUP_TYPE _eTarget)
 {
     Safe_Delete_Vec(m_arrObj[(UINT)_eTarget]);
