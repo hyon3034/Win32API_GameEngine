@@ -69,3 +69,13 @@ CTexture* CResMgr::FindTexture(const wstring& _strKey)
 
     return (CTexture*)iter->second;
 }
+
+CSound* CResMgr::LoadSound(const wstring& _strKey, const wstring& _strRelativePath)
+{
+    return nullptr;
+}
+
+CSound* CResMgr::FindSound(const wstring& _strKey)
+{
+    return nullptr;
+}

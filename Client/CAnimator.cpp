@@ -58,6 +58,15 @@ void CAnimator::CreateAnimation(const wstring& _strName, CTexture* _pTex, Vec2 _
 
 }
 
+void CAnimator::LoadAnimation(const wstring& _strRelativePath)
+{
+    CAnimation* pAnim = new CAnimation;
+    pAnim->Load(_strRelativePath);
+
+    pAnim->m_pAnimator = this;
+    m_mapAnim.insert(make_pair(pAnim->GetName(), pAnim));
+}
+
 CAnimation* CAnimator::FindAnimation(const wstring& _strName)
 {
     map<wstring, CAnimation*>::iterator iter = m_mapAnim.find(_strName);

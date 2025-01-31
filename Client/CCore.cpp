@@ -13,7 +13,7 @@
 #include "CResMgr.h"
 #include "CTexture.h"
 #include "SelectGDI.h"
-
+#include "CSoundMgr.h"
 #include "resource.h"
 
 // CCore* CCore::g_pInst = nullptr;
@@ -70,6 +70,7 @@ int CCore::init(HWND _hWnd, POINT _ptResolution)
 	CTimeMgr::GetInst()->init();
 	CKeyMgr::GetInst()->init();
     CCamera::GetInst()->init();
+    CSoundMgr::GetInst()->init();
     CSceneMgr::GetInst()->init();
     
 
